@@ -18,6 +18,7 @@ flowchart LR
 I tried to integrate with the Ontec API but the documentation was limited and topics such as authentication were vague.  Instead I elected to integrate directly.  This comes with some additional costs and more complex steps.
 
 In short you will need:
+
 * A Sigfox account and communications plan.  I bought mine online from Skwidnet in South Africa after having registered with the Sigfox portal.
 
 * You KEM file from Kamstrup.  This file contains descriptiors of the meter, it's serial number and, most importantly, the decryption (**DEK**) key.
